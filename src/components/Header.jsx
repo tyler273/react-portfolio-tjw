@@ -2,7 +2,9 @@ import Nav from "./Nav";
 
 
 function Header(){
-    <header><Nav/></header>
+    return(
+        <header><Nav/></header>
+    )
 }
 
 export default Header;
