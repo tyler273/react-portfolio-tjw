@@ -11,9 +11,9 @@ function Contact() {
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (event) => {
     // Getting the value and name of the input which triggered the change
-    const { target } = e;
+    const { target } = event;
     const inputType = target.name;
     const inputValue = target.value;
     // console.log(target)
@@ -27,6 +27,93 @@ function Contact() {
     }
   };
 
+  const handleEmailInput = (event) => {
+    event.preventDefault();
+    setErrorMessage('');
+
+    if (!email) {
+      setErrorMessage('Enter an email address');
+
+      return;
+    } else {
+      if (!validateEmail(email)) {
+        setErrorMessage('Enter a valid email address');
+
+        return;
+      } else {
+        if (!name) {
+          setErrorMessage('Enter a name');
+
+          return;
+        } else {
+          if (!message) {
+            setErrorMessage('Enter a message');
+
+            return;
+          } 
+        }
+      }
+    }
+  }
+
+  const handleNameInput = (event) => {
+    event.preventDefault();
+    setErrorMessage('');
+
+    if (!name) {
+      setErrorMessage('Enter a name');
+
+      return;
+    } else {
+      if (!message) {
+        setErrorMessage('Enter a message');
+
+        return;
+      } else {
+        if (!email) {
+          setErrorMessage('Enter an email address');
+
+          return;
+        } else {
+          if (!validateEmail(email)) {
+            setErrorMessage('Enter a valid email address');
+
+            return;
+          } 
+        }
+      }
+    }
+  }
+
+  const handleMessageInput = (event) => {
+    event.preventDefault();
+    setErrorMessage('');
+
+    if (!message) {
+      setErrorMessage('Enter a message');
+
+      return;
+    } else {
+      if (!name) {
+        setErrorMessage('Enter a name');
+
+        return;
+      } else {
+        if (!email) {
+          setErrorMessage('Enter an email address');
+
+          return;
+        } else {
+          if (!validateEmail(email)) {
+            setErrorMessage('Enter a valid email address');
+
+            return;
+          } 
+        }
+      }
+    }
+  }
+
   return (
     <div className="container text-center">
       <h4>Fill in this contact form and I'll get back to you!</h4>
@@ -35,6 +122,7 @@ function Contact() {
           value={email}
           name="email"
           onChange={handleInputChange}
+          onBlur={handleEmailInput}
           type="email"
           placeholder="email"
         />
@@ -42,6 +130,7 @@ function Contact() {
           value={name}
           name="name"
           onChange={handleInputChange}
+          onBlur={handleNameInput}
           type="text"
           placeholder="name"
         />
@@ -49,6 +138,7 @@ function Contact() {
           value={message}
           name="message"
           onChange={handleInputChange}
+          onBlur={handleMessageInput}
           type="message"
           placeholder="message"
         />
