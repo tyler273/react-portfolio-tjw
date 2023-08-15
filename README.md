@@ -8,7 +8,7 @@ The goal of this project was to build a website for my virtual portfolio utilizi
 
 ## Usage
 
-[Click here for the deployed link to the live website!](https://drive.google.com/file/d/1Tw6vnqGk0SWi4g8ZoANRJYKoJyu3SZN8/view)
+Deployed website will be linked here!
 
 ## Credits
 
