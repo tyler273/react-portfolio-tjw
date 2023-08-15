@@ -10,6 +10,9 @@ The goal of this project was to build a website for my virtual portfolio utilizi
 
 [Click here for the deployed link to the live website!](https://tyler273.github.io/react-portfolio-tjw/)
 
+<img width="1440" alt="Portfolio WIP Screenshot" src="https://github.com/tyler273/react-portfolio-tjw/assets/127708141/0c225b23-d638-499f-a5f9-f8737b25b943">
+
+
 ## Credits
 
 I was able to complete the assignment through tutoring from my fellow peer [Myro Lee](https://github.com/myrojoylee)!
