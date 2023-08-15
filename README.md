@@ -8,7 +8,7 @@ The goal of this project was to build a website for my virtual portfolio utilizi
 
 ## Usage
 
-Deployed website will be linked here!
+[Click here for the deployed link to the live website!](https://tyler273.github.io/react-portfolio-tjw/)
 
 ## Credits
 
