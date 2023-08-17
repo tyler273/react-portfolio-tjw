@@ -4,7 +4,7 @@
 
 ## Description
 
-The goal of this project was to build a website for my virtual portfolio utilizing React! It will feature my projects, an About Me, my resume and a contact form to reach me!
+The goal of this project was to build a website for my virtual portfolio utilizing React! It will feature my projects, an about me, my resume and a contact form to reach me!
 
 ## Usage
 
