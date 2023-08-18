@@ -6,4 +6,29 @@
 }
 body {
   background-color: white;
+  width: 100%;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  width: 40%;
+}
+
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 768px){
+  .card {
+    width: 100%;
+  }
 }
