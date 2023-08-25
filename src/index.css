@@ -28,6 +28,10 @@ body {
   padding: 1em;
 }
 
+.profile-pic {
+  width: 20vh;
+}
+
 @media only screen and (max-width: 768px){
   .card {
     width: 100%;
