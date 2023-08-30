@@ -30,7 +30,12 @@ body {
 
 .profile-pic {
   width: 20vh;
+  margin-bottom: 5px;
 }
+
+/* .pic-container {
+  margin-bottom: 5px;
+} */
 
 @media only screen and (max-width: 768px){
   .card {
