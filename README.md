@@ -4,11 +4,11 @@
 
 ## Description
 
-The goal of this project was to build a website for my virtual portfolio utilizing React! It will feature my projects, an about me, my resume and a contact form to reach me!
+This application is my updated virtual portfolio utilizing React.js! It features some of my favorite projects that I have made and it is deployed utilizing Netlify. It also features an about me, my resume and a contact form to reach me!
 
 ## Usage
 
-[Click here for the deployed link to the live website!](https://tyler273.github.io/react-portfolio-tjw/)
+[Click here for the deployed link to the live website!](https://tylerwoods-portfolio.netlify.app/)
 
 <img width="1440" alt="Portfolio WIP Screenshot" src="https://github.com/tyler273/react-portfolio-tjw/assets/127708141/0c225b23-d638-499f-a5f9-f8737b25b943">
 
