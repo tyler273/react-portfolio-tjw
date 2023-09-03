@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
@@ -27,35 +29,6 @@ function Contact() {
     }
   };
 
-  const handleEmailInput = (event) => {
-    event.preventDefault();
-    setErrorMessage('');
-
-    if (!email) {
-      setErrorMessage('Enter an email address');
-
-      return;
-    } else {
-      if (!validateEmail(email)) {
-        setErrorMessage('Enter a valid email address');
-
-        return;
-      } else {
-        if (!name) {
-          setErrorMessage('Enter a name');
-
-          return;
-        } else {
-          if (!message) {
-            setErrorMessage('Enter a message');
-
-            return;
-          } 
-        }
-      }
-    }
-  }
-
   const handleNameInput = (event) => {
     event.preventDefault();
     setErrorMessage('');
@@ -77,6 +50,35 @@ function Contact() {
         } else {
           if (!validateEmail(email)) {
             setErrorMessage('Enter a valid email address');
+
+            return;
+          } 
+        }
+      }
+    }
+  }
+
+  const handleEmailInput = (event) => {
+    event.preventDefault();
+    setErrorMessage('');
+
+    if (!email) {
+      setErrorMessage('Enter an email address');
+
+      return;
+    } else {
+      if (!validateEmail(email)) {
+        setErrorMessage('Enter a valid email address');
+
+        return;
+      } else {
+        if (!name) {
+          setErrorMessage('Enter a name');
+
+          return;
+        } else {
+          if (!message) {
+            setErrorMessage('Enter a message');
 
             return;
           } 
@@ -116,16 +118,56 @@ function Contact() {
 
   return (
     <div className="container text-center">
-      <h4>Fill in this contact form and I'll get back to you!</h4>
-      <form className="form">
-        <input
+      <h4>Fill in this contact form and I will get back to you as soon as possible!</h4>
+      <Form>
+      <Form.Group className="mb-3" controlId="formBasicText">
+        <Form.Label>Name</Form.Label>
+        <Form.Control 
+          value={name}
+          name="name"
+          onChange={handleInputChange}
+          onBlur={handleNameInput}
+          type="text"
+          placeholder="Enter your name here"
+        />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control 
           value={email}
           name="email"
           onChange={handleInputChange}
           onBlur={handleEmailInput}
           type="email"
-          placeholder="email"
+          placeholder="Enter your email here"
         />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formControlTextarea">
+            <Form.Label>Message</Form.Label>
+            <Form.Control
+              as="textarea"
+              placeholder="Enter message"
+              rows="5"
+              onChange={handleInputChange}
+              onBlur={handleMessageInput}
+              value={message}
+            />
+            <Form.Text className="text-muted">{errorMessage}</Form.Text>
+          </Form.Group>
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+      </Form>
+    </div>  
+  );
+}
+
+export default Contact;
+
+//NOTE - class code
+{/* <form className="form">
         <input
           value={name}
           name="name"
@@ -133,6 +175,14 @@ function Contact() {
           onBlur={handleNameInput}
           type="text"
           placeholder="name"
+        />
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          onBlur={handleEmailInput}
+          type="email"
+          placeholder="email"
         />
         <input
           value={message}
@@ -150,8 +200,4 @@ function Contact() {
         </div>
       )}
       <h5>Fill in email here!</h5>
-    </div>
-  );
-}
-
-export default Contact;
+    </div> */}
