@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import '../styles/Contact.css';
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';

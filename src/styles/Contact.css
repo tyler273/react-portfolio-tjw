@@ -9,10 +9,11 @@
     justify-content: space-around;
 }
 
-.form-text {
+/* .form-text {
     color: white;
-}
+} */
 
 .text-muted {
-    color: white;
+    color: white !important;
+    font-style: italic;
 }
