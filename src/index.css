@@ -18,12 +18,14 @@ footer {
   font-size: 10em;
 }
 
+p {
+  font-size: 20px;
+}
+
 /* About Me Styling */
 
 .about-me {
   display: flex;
-  flex-direction: column;
-  height: fit-content;
   padding: 1em;
   gap: 1em;
 }
@@ -31,6 +33,7 @@ footer {
 .pic-container {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 .profile-pic {
@@ -38,11 +41,17 @@ footer {
   margin-bottom: 5px;
 }
 
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
 /* Portfolio Projects Styling */
 
 .card {
   display: flex;
-  width: 40%;
+  width: 30%;
 }
 
 .card-detail {
