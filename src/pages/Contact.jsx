@@ -20,9 +20,9 @@ function Contact() {
     const inputValue = target.value;
     // console.log(target)
     // Based on the input type, we set the state of either email, username, and message
-    if (inputType === 'email') {
+    if (inputType === 'formBasicEmail') {
       setEmail(inputValue);
-    } else if (inputType === 'name') {
+    } else if (inputType === 'formBasicText') {
       setName(inputValue);
     } else {
       setMessage(inputValue);
