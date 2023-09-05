@@ -11,25 +11,21 @@ body {
   color: antiquewhite;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  font-size: 10em;
+}
+
+/* About Me Styling */
+
 .about-me {
   display: flex;
   flex-direction: column;
   height: fit-content;
   padding: 1em;
   gap: 1em;
-}
-
-
-
-.card {
-  display: flex;
-  width: 40%;
-}
-
-.card-detail {
-  display: flex;
-  flex-direction: column;
-  padding: 1em;
 }
 
 .pic-container {
@@ -40,6 +36,19 @@ body {
 .profile-pic {
   width: 20vh;
   margin-bottom: 5px;
+}
+
+/* Portfolio Projects Styling */
+
+.card {
+  display: flex;
+  width: 40%;
+}
+
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
 }
 
 .project-list {
