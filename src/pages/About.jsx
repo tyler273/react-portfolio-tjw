@@ -10,7 +10,13 @@ export default function About() {
         </section>
         <section className="text-container">
           <p>
-            My name is Tyler Woods and I am new to the field of full-stack development! I was previously in health care and decided on a career change which led me to enroll in UPenn's coding bootcamp. I was born and raised in Philadelphia where I attended CHS and graduated with an associate's degree from the Community College of Philadelphia. This website will be updated as I learn more and improve my skills in both HTML, CSS and JavaScript!
+            My name is Tyler Woods and I am new to the field of full-stack development! I was previously in health care and decided on a career change which led me to enroll in UPenn's coding bootcamp and earn my certificate of completion!
+          </p>
+          <p>
+            I was born and raised in Philadelphia where I attended Central High School and graduated with an associate's degree from the Community College of Philadelphia.
+          </p>
+          <p>
+            Having completing the University of Pennsylvania's full-stack bootcamp, I can confidently say that I love coding and am very eager to get into the field. Teamwork and collaboration is my strong suit and I look forward to building projects with other amazing people in tech!
           </p>
         </section>
       </div>
