@@ -1,5 +1,6 @@
 import React from "react";
 import profilepic from "../assets/selfie.jpeg";
+import "../styles/About.css";
 
 export default function About() {
     return (

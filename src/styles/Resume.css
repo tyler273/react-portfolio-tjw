@@ -1,0 +1,23 @@
+.bullet-points {
+    content: "\2022";
+    color: white;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.resume-download {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 15px;
+}
+
+.resume-proficiencies {
+    display: flex;
+    gap: 5em;
+    padding-top: 10px;
+}

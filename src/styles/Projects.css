@@ -1,0 +1,34 @@
+h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.card {
+    display: flex;
+    width: 30%;
+}
+
+.card-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+ 
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 100%;
+}
+  
+@media only screen and (max-width: 768px){
+    .card {
+      width: 100%;
+    }
+}

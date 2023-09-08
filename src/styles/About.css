@@ -1,0 +1,24 @@
+.about-me {
+    display: flex;
+    padding: 1em;
+    gap: 1em;
+}
+  
+.pic-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+  
+.profile-pic {
+    width: 20vh;
+    margin-bottom: 5px;
+    border-radius: 30%;
+}
+  
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    /* padding-bottom: 300px; */
+}
