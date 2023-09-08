@@ -5,7 +5,7 @@ import foodFocus from "../assets/foodFocus.png";
 import techTalk from "../assets/techTalk.png";
 import pwGenerator from "../assets/pwGenerator.png";
 import noteTaker from "../assets/noteTaker.png";
-import "../styles/Projects.css";
+import "../styles/Project.css";
 
 
 export default function Portfolio() {

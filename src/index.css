@@ -6,8 +6,12 @@
 
 body {
   background-color: black;
+  color: white;
   width: 100%;
-  color: antiquewhite;
+  background-image: url("./assets/space-background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 90%;
 }
 
 footer {
@@ -20,3 +24,10 @@ footer {
 p {
   font-size: 20px;
 }
+
+/* .background {
+  background-image: url("./assets/space-background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 20vh;
+} */
