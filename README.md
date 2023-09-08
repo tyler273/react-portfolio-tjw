@@ -10,7 +10,7 @@ This application is my updated virtual portfolio utilizing React.js! It features
 
 [Click here for the deployed link to the live website!](https://tylerwoods-portfolio.netlify.app/)
 
-<img width="1440" alt="Portfolio WIP Screenshot" src="https://github.com/tyler273/react-portfolio-tjw/assets/127708141/0c225b23-d638-499f-a5f9-f8737b25b943">
+<img width="1440" alt="Portfolio Screenshot" src="./src/assets/portfolio-ss.png">
 
 
 ## Credits
