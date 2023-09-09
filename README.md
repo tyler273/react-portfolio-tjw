@@ -15,7 +15,7 @@ This application is my updated virtual portfolio utilizing React.js! It features
 
 ## Credits
 
-I was able to complete the assignment through tutoring from my fellow peer [Myro Lee](https://github.com/myrojoylee)!
+I was able to complete the portfolio through tutoring from my fellow peer [Myro Lee](https://github.com/myrojoylee)! Code for text box shadows came from [here](https://blog.logrocket.com/three-ways-style-css-box-shadow-effects/)!
 
 ## License
 
