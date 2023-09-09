@@ -4,10 +4,17 @@
     width: 5vh;
 } */
 
-.form {
+.container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
 }
+
+/* .form {
+    display: flex;
+    flex-direction: column;
+} */
 
 /* .form-text {
     color: white;

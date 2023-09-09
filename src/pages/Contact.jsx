@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import '../styles/Contact.css';
@@ -118,14 +118,13 @@ function Contact() {
   }
 
   return (
-    <div className="container text-center">
+    <div className="container">
       <h4>Fill in this contact form and I will get back to you as soon as possible!</h4>
       <Form>
-      <Form.Group className="mb-3" controlId="formBasicText">
+      <Form.Group className="col-3 mb-3" controlId="formBasicText">
         <Form.Label>Name</Form.Label>
         <Form.Control 
           value={name}
-          name="name"
           onChange={handleInputChange}
           onBlur={handleNameInput}
           type="text"
@@ -133,11 +132,10 @@ function Contact() {
         />
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formBasicEmail">
+      <Form.Group className="col-3 mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control 
           value={email}
-          name="email"
           onChange={handleInputChange}
           onBlur={handleEmailInput}
           type="email"
@@ -145,19 +143,19 @@ function Contact() {
         />
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formControlTextarea">
+      <Form.Group className="col-3 mb-3" controlId="formControlTextarea">
             <Form.Label>Message</Form.Label>
             <Form.Control
               as="textarea"
               placeholder="Enter message"
-              rows="5"
+              rows="4"
               onChange={handleInputChange}
               onBlur={handleMessageInput}
               value={message}
             />
             <Form.Text className="text-muted">{errorMessage}</Form.Text>
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <Button className="button" variant="primary" type="submit" style={{ backgroundColor: "#668cff", color: "white", borderColor: "#668cff" }}>
             Submit
           </Button>
       </Form>
