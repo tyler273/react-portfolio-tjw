@@ -1,0 +1,10 @@
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-size: 10em;
+}
+
+.fa-3x:hover {
+    transform: scale(1.1);
+}
