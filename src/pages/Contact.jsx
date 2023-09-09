@@ -21,9 +21,9 @@ function Contact() {
     const inputValue = target.value;
     // console.log(target)
     // Based on the input type, we set the state of either email, username, and message
-    if (inputType === 'formBasicEmail') {
+    if (inputType === 'email') {
       setEmail(inputValue);
-    } else if (inputType === 'formBasicText') {
+    } else if (inputType === 'name') {
       setName(inputValue);
     } else {
       setMessage(inputValue);
@@ -129,6 +129,7 @@ function Contact() {
           onBlur={handleNameInput}
           type="text"
           placeholder="Enter your name here"
+          name="name"
         />
       </Form.Group>
 
@@ -140,18 +141,20 @@ function Contact() {
           onBlur={handleEmailInput}
           type="email"
           placeholder="Enter your email here"
+          name="email"
         />
       </Form.Group>
 
       <Form.Group className="col-3 mb-3" controlId="formControlTextarea">
             <Form.Label>Message</Form.Label>
             <Form.Control
+              value={message}
               as="textarea"
               placeholder="Enter message"
               rows="4"
               onChange={handleInputChange}
               onBlur={handleMessageInput}
-              value={message}
+              name="message"
             />
             <Form.Text className="text-muted">{errorMessage}</Form.Text>
           </Form.Group>
