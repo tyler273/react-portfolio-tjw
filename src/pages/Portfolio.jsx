@@ -12,7 +12,7 @@ export default function Portfolio() {
   const projs = [
     {
       name: "Movie Vault",
-      deployedLink: "https://critter-tracker-p2-d4b8f730eb59.herokuapp.com/",
+      deployedLink: "https://movie-vault-a6d86baeac1b.herokuapp.com/",
       repoLink: "https://github.com/nolannaphys/movie-vault",
       image: movieVault
     },
