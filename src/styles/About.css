@@ -24,3 +24,13 @@
     /* flex-wrap: wrap; */
     /* padding-bottom: 300px; */
 }
+
+@media screen and (max-width: 768px) {
+    .about-me {
+        flex-direction: column;
+    }
+
+    .text-container p {
+        font-size: 1em;
+    }
+}

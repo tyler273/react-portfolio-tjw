@@ -15,6 +15,12 @@ body {
   opacity: 90%;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 p {
   font-size: 20px;
 }
@@ -25,3 +31,9 @@ p {
   background-attachment: scroll;
   height: 20vh;
 } */
+
+@media screen and (max-width: 768px) {
+  footer a {
+    font-size: 0.75em;
+  }
+}
