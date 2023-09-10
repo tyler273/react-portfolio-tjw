@@ -9,6 +9,7 @@
     flex-direction: column;
     padding: 1em;
     gap: 1em;
+    width: 100%;
 }
 
 /* .form {
@@ -23,4 +24,10 @@
 .text-muted {
     color: white !important;
     font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
 }
