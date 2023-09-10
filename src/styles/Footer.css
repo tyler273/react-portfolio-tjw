@@ -1,6 +1,7 @@
 footer {
     display: flex;
     justify-content: center;
+    width: 100%;
     gap: 1em;
     font-size: 10em;
 }
