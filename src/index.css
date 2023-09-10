@@ -5,12 +5,13 @@
 }
 
 body {
+  display: flex;
   background-color: black;
   color: white;
   width: 100%;
   background-image: url("./assets/space-background.jpeg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   opacity: 90%;
 }
 
