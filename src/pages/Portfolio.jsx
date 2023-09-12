@@ -1,7 +1,7 @@
 import Project from "../components/Project";
 import movieVault from "../assets/movieVault.png";
 import critterTracker from "../assets/critterTracker.png";
-import foodFocus from "../assets/foodFocus.png";
+// import foodFocus from "../assets/foodFocus.png";
 import techTalk from "../assets/techTalk.png";
 import pwGenerator from "../assets/pwGenerator.png";
 import noteTaker from "../assets/noteTaker.png";
@@ -22,12 +22,12 @@ export default function Portfolio() {
       repoLink: "https://github.com/tyler273/critter-tracker",
       image: critterTracker
     },
-    {
-      name: "Food Focus",
-      deployedLink: "https://paulnxn1.github.io/food_Focus/",
-      repoLink: "https://github.com/tyler273/food-focus",
-      image: foodFocus
-    },
+    // {
+    //   name: "Food Focus",
+    //   deployedLink: "https://paulnxn1.github.io/food_Focus/",
+    //   repoLink: "https://github.com/tyler273/food-focus",
+    //   image: foodFocus
+    // },
     {
       name: "Tech Talk Blog",
       deployedLink: "https://tech-talk-blog-tjw-3a20aff9c737.herokuapp.com/",
