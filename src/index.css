@@ -4,6 +4,12 @@
   font-size: 16px;
 }
 
+a:visited,
+a:active,
+a:link {
+  color: white;
+}
+
 body {
   display: flex;
   background-color: black;
