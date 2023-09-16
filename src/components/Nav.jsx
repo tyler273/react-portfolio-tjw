@@ -11,7 +11,7 @@ function Navigate() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-transparent">
         <Navbar.Brand className="name">Tyler Woods</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-white"/>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-black"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" variant="tabs">
           <Link
