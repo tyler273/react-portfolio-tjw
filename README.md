@@ -15,7 +15,7 @@ This application is my updated virtual portfolio utilizing React.js! It features
 
 ## Credits
 
-I was able to complete the portfolio through tutoring from my fellow peer [Myro Lee](https://github.com/myrojoylee)! Code for text box shadows came from [here](https://blog.logrocket.com/three-ways-style-css-box-shadow-effects/)!
+I was able to complete the portfolio through tutoring from my fellow peer [Myro Lee](https://github.com/myrojoylee)! Code for text box shadows came from [here](https://blog.logrocket.com/three-ways-style-css-box-shadow-effects/)! Code for colored navbar toggle icon and border sourced from [here](https://codingyaar.com/shorts/bootstrap-navbar-toggler-color-change/)!
 
 ## License
 
