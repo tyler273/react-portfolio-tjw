@@ -118,7 +118,7 @@ function Contact() {
   }
 
   return (
-    <div className="container">
+    <div className="contact-container">
       <h4>Fill in this contact form and I will get back to you as soon as possible!</h4>
       <Form action="https://formspree.io/f/xbjvkavk" method="POST">
         <Form.Group className="col-5 mb-3" controlId="formBasicText">

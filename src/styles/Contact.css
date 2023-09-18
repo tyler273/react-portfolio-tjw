@@ -4,7 +4,7 @@
     width: 5vh;
 } */
 
-.container {
+.contact-container {
     display: flex;
     flex-direction: column;
     padding: 1em;
