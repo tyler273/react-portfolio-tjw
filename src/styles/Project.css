@@ -32,11 +32,16 @@ h2 {
 }
 
 .card-front {
-    height: 400px;
+    height: 300px;
 }
 
 .card-back {
-    height: 400px;
+    height: 300px;
+    /* justify-content: space-around; */
+}
+
+.card-img-top {
+    height: 100%;
 }
 
 .project-list {
@@ -49,5 +54,9 @@ h2 {
 @media only screen and (max-width: 768px){
     .card {
       width: 100%;
+    }
+
+    .project-list {
+        padding-right: 2em;
     }
 }
