@@ -9,7 +9,7 @@ function Navigate() {
   const currentPage = useLocation().pathname;
 
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-transparent">
+    <Navbar collapseOnSelect expand="lg">
         <Navbar.Brand className="name">Tyler Woods</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-black"/>
         <Navbar.Collapse id="responsive-navbar-nav">
