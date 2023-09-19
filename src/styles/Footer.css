@@ -1,8 +1,10 @@
 footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     padding: 1em;
+    gap: 3em;
+    margin-top: 13em;
 }
 
 .fa-3x:hover {
