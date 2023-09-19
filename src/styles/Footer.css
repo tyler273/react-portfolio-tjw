@@ -4,7 +4,8 @@ footer {
     width: 100%;
     padding: 1em;
     gap: 3em;
-    margin-top: 13em;
+    background-color: black;
+    margin-top: auto;
 }
 
 .fa-3x:hover {
