@@ -4,12 +4,26 @@
     width: 5vh;
 } */
 
+ul {
+    list-style: none;
+}
+
+.contact-wrapper {
+    display: inline-block;
+}
+
 .contact-container {
     display: flex;
     flex-direction: column;
     padding: 1em;
     gap: 1em;
     width: 100%;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 /* .form {
