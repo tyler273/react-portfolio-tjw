@@ -15,7 +15,9 @@ export default function Project({project}) {
             <img className="card-img-top" src={project.image} alt={project.name}/>
           </div>
           <div className="card-detail card-back" onClick={flipCard}>
-            {project.name}
+            <p>{project.name}</p>
+            <p>{project.description}</p>
+            <p>{project.technologies}</p>
             <a href={project.deployedLink}>
               Deployed Link
             </a>

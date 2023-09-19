@@ -8,26 +8,37 @@
     display: flex;
     flex-direction: column;
     width: 40%;
+    align-items: center;
 }
   
 .profile-pic {
-    width: 20vh;
+    width: 30vh;
     margin-bottom: 5px;
     border-radius: 30%;
+    margin-top: 1em;
 }
   
 .text-container {
     display: flex;
     flex-direction: column;
     align-self: center;
+    text-align: center;
     width: 100%;
-    /* flex-wrap: wrap; */
-    /* padding-bottom: 300px; */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
     .about-me {
         flex-direction: column;
+    }
+
+    .pic-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .profile-pic {
+        width: 20vh;
     }
 
     .text-container p {
