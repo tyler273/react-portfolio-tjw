@@ -9,12 +9,13 @@ ul {
 }
 
 .contact-wrapper {
-    display: inline-block;
+    display: flex;
 }
 
 .contact-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 1em;
     gap: 1em;
     width: 100%;
@@ -23,7 +24,9 @@ ul {
 .contact-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
+    width: 100%;
 }
 
 /* .form {
@@ -40,8 +43,21 @@ ul {
     font-style: italic;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        width: 100%;
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .contact-wrapper {
+        flex-direction: column;
     }
+    
+    /* .contact-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        gap: 1em;
+        width: 100%;
+    } */
+
+    /* .contact-info {
+        display: flex;
+        text-align: center;
+    } */
 }

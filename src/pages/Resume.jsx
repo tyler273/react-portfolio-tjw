@@ -17,7 +17,7 @@ export default function Resume() {
             </a>
           </section>
 
-          <article className="resume-proficiencies">
+          <section className="resume-proficiencies">
             <div>
               <h3>Front-End Proficiencies</h3>
               <ul>
@@ -39,7 +39,7 @@ export default function Resume() {
               </ul>
             </div>
 
-          </article>
+          </section>
           
 
         </div>

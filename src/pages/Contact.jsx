@@ -122,33 +122,33 @@ function Contact() {
       <section className="contact-container">
         <h4>Fill in this contact form and I will get back to you as soon as possible!</h4>
         <Form action="https://formspree.io/f/xbjvkavk" method="POST">
-        <Form.Group className="col-5 mb-3" controlId="formBasicText">
-          <Form.Label>Name</Form.Label>
-          <Form.Control 
-            value={name}
-            onChange={handleInputChange}
-            onBlur={handleNameInput}
-            type="text"
-            placeholder="Enter your name here"
-            name="name"
-          />
-        </Form.Group>
+          <Form.Group className="col-6 mb-3" controlId="formBasicText">
+            <Form.Label>Name</Form.Label>
+            <Form.Control 
+              value={name}
+              onChange={handleInputChange}
+              onBlur={handleNameInput}
+              type="text"
+              placeholder="Enter your name here"
+              name="name"
+            />
+          </Form.Group>
 
-        <Form.Group className="col-5 mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control 
-            value={email}
-            onChange={handleInputChange}
-            onBlur={handleEmailInput}
-            type="email"
-            placeholder="Enter your email here"
-            name="email"
-          />
-        </Form.Group>
+          <Form.Group className="col-6 mb-3" controlId="formBasicEmail">
+            <Form.Label>Email address</Form.Label>
+            <Form.Control 
+              value={email}
+              onChange={handleInputChange}
+              onBlur={handleEmailInput}
+              type="email"
+              placeholder="Enter your email here"
+              name="email"
+            />
+          </Form.Group>
 
-        <Form.Group className="col-5 mb-3" controlId="formControlTextarea">
-          <Form.Label>Message</Form.Label>
-          <Form.Control
+          <Form.Group className="col-6 mb-3" controlId="formControlTextarea">
+            <Form.Label>Message</Form.Label>
+            <Form.Control
               value={message}
               as="textarea"
               placeholder="Enter message"
@@ -156,20 +156,20 @@ function Contact() {
               onChange={handleInputChange}
               onBlur={handleMessageInput}
               name="message"
-          />
-          <Form.Text className="text-muted">{errorMessage}</Form.Text>
-        </Form.Group>
-          <Button className="button" variant="primary" type="submit" style={{ backgroundColor: "#668cff", color: "white", borderColor: "#668cff" }}>
-            Submit
-          </Button>
-      </Form>
+            />
+            <Form.Text className="text-muted">{errorMessage}</Form.Text>
+          </Form.Group>
+            <Button className="button" variant="primary" type="submit" style={{ backgroundColor: "#668cff", color: "white", borderColor: "#668cff" }}>
+              Submit
+            </Button>
+        </Form>
+      </section>
         <section className="contact-info">
           <ul>
             <li>Email: tylerwoods468@gmail.com</li>
             <li>Phone: 267-886-6651</li>
           </ul>
         </section>
-      </section>
     </div>  
   );
 }
