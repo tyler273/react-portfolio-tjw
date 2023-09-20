@@ -1,3 +1,8 @@
+a {
+    display: flex;
+    justify-content: center;
+}
+
 .bullet-points {
     content: "\2022";
     color: white;
@@ -6,12 +11,15 @@
 .resume-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .resume-download {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    padding-top: 5em;
     padding-bottom: 2em;
     padding-left: 1em;
 }
@@ -21,5 +29,6 @@
     justify-content: center;
     gap: 5em;
     padding-left: 1em;
+    padding-top: 3em;
     
 }
