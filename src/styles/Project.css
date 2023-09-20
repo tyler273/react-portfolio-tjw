@@ -37,11 +37,11 @@ p {
 }
 
 .card-front {
-    height: 300px;
+    height: 400px;
 }
 
 .card-back {
-    height: 300px;
+    height: 400px;
     text-align: center;
 }
 
