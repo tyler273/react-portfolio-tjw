@@ -69,3 +69,17 @@ p {
         padding-left: 1em;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 930px){
+    .card {
+        width: 40%;
+      }
+  
+      .project-list {
+          padding-right: 2em;
+      }
+  
+      .project-info {
+          padding-left: 1em;
+      }
+}
