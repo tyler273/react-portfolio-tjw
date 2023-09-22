@@ -47,6 +47,10 @@ ul {
     .contact-wrapper {
         flex-direction: column;
     }
+
+    .contact-info {
+        padding-top: 2em;
+    }
     
     /* .contact-container {
         display: flex;

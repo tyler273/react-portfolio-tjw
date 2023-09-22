@@ -61,7 +61,7 @@ export default function Portfolio() {
   return (
     <section>
       <h2>Projects</h2>
-      <p>Click a project to view more info on the back!</p>
+      <p className="project-info">Click a project to view more info on the back!</p>
       <ul className="project-list">
       {
         projs.map((project, i) => (

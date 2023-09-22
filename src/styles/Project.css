@@ -64,4 +64,8 @@ p {
     .project-list {
         padding-right: 2em;
     }
+
+    .project-info {
+        padding-left: 1em;
+    }
 }
