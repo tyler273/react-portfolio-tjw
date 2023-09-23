@@ -1,4 +1,5 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
 import ResumeTWoodsPDF from "../assets/twoods-resume.pdf";
 import "../styles/Resume.css";
 
@@ -13,7 +14,10 @@ export default function Resume() {
               target="_blank"
               rel="noreferrer"
             >
-              <button>Download PDF</button>
+              <Button className="button" variant="primary" type="submit" style={{ backgroundColor: "#668cff", color: "white", borderColor: "#668cff" }}>
+              Download PDF
+              </Button>
+            
             </a>
           </section>
 

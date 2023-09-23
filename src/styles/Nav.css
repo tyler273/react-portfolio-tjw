@@ -35,8 +35,18 @@
     list-style-type: none;
 }
 
+/* .navbar-nav .nav-tabs .nav-link:active {
+    color: white !important;
+} */
+
 .nav-link:hover {
     color: white;
+    background-color: #333;
+    box-shadow: inset 0px 2px 4px rgba(208, 0, 255, 0.7), 
+                inset 0px 4px 8px rgba(208, 0, 255, 0.7), 
+                inset 0px 8px 16px rgba(208, 0, 255, 0.7);
+    transition: 0.2s;
+    transform: translateY(2px);
 }
 
 .nav-tabs {

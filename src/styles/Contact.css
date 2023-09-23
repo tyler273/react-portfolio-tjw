@@ -8,6 +8,10 @@ ul {
     list-style: none;
 }
 
+.button:hover {
+    transform: scale(1.1);
+}
+
 .contact-wrapper {
     display: flex;
 }
@@ -35,7 +39,7 @@ ul {
     align-items: center;
 }
 
-.form-text {
+.form-desc {
     display: flex;
     text-align: center;
     align-self: center;
@@ -48,9 +52,6 @@ ul {
     text-align: center;
 } */
 
-/* .form-text {
-    color: white;
-} */
 
 .text-muted {
     color: white !important;

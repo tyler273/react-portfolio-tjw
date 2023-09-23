@@ -120,7 +120,7 @@ function Contact() {
   return (
     <div className="contact-wrapper">
       <section className="contact-container">
-        <h4 className="form-text">Fill in this contact form and I will get back to you as soon as possible!</h4>
+        <h4 className="form-desc">Fill in this contact form and I will get back to you as soon as possible!</h4>
         <Form className="form" action="https://formspree.io/f/xbjvkavk" method="POST">
           <Form.Group className="col-6 mb-3" controlId="formBasicText">
             <Form.Label>Name</Form.Label>
@@ -176,7 +176,7 @@ function Contact() {
 
 export default Contact;
 
-//NOTE - class code
+//NOTE - old code
 {/* <form className="form">
         <input
           value={name}
